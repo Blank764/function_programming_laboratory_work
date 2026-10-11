@@ -1,0 +1,86 @@
+
+=== IP Link ===
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+2: enp3s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP mode DEFAULT group default qlen 1000
+    link/ether 04:7c:16:a6:f3:c9 brd ff:ff:ff:ff:ff:ff
+    altname enx047c16a6f3c9
+3: wlo1: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+    link/ether 2a:31:81:05:c3:5a brd ff:ff:ff:ff:ff:ff permaddr 58:1c:f8:ad:9c:65
+    altname wlp0s20f3
+    altname wlx581cf8ad9c65
+
+
+=== IP Route ===
+default via 192.168.1.1 dev enp3s0 proto dhcp src 192.168.1.43 metric 100 
+192.168.1.0/24 dev enp3s0 proto kernel scope link src 192.168.1.43 metric 100 
+
+
+=== Ping ===
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=108 time=26.6 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=108 time=26.4 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=108 time=26.9 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=108 time=26.4 ms
+
+--- 8.8.8.8 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3005ms
+rtt min/avg/max/mdev = 26.426/26.605/26.948/0.212 ms
+
+
+=== Dig ===
+216.58.201.206
+
+
+=== Curl ===
+HTTP/2 301 
+location: https://www.google.com/
+content-type: text/html; charset=UTF-8
+content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-VN4aK57JZjbHYqUR83uuSg' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+date: Sun, 27 Sep 2026 14:16:16 GMT
+expires: Tue, 27 Oct 2026 14:16:16 GMT
+cache-control: public, max-age=2592000
+server: gws
+content-length: 220
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+
+
+=== Traceroute ===
+traceroute to 8.8.8.8 (8.8.8.8), 30 hops max, 60 byte packets
+ 1  192.168.1.1  0.287 ms  0.407 ms  0.503 ms
+ 2  172.29.14.19  6.153 ms  6.216 ms  6.278 ms
+ 3  172.29.14.18  1.937 ms  2.005 ms  1.977 ms
+ 4  * * *
+ 5  * * *
+ 6  * * *
+ 7  216.239.42.42  12.667 ms 72.14.232.172  8.840 ms 172.253.69.168  10.477 ms
+ 8  192.178.241.234  9.830 ms * *
+ 9  * 72.14.234.54  25.728 ms *
+10  142.250.235.62  22.170 ms  21.668 ms 142.251.238.72  26.391 ms
+11  216.239.42.21  22.188 ms 216.239.48.85  24.100 ms 216.239.42.21  22.965 ms
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  8.8.8.8  24.236 ms *  24.238 ms
+
+
+=== Ping ===
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=108 time=26.7 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=108 time=27.1 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=108 time=26.9 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=108 time=27.2 ms
+
+--- 8.8.8.8 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3003ms
+rtt min/avg/max/mdev = 26.744/26.991/27.174/0.178 ms
+

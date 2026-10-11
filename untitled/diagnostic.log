@@ -1,0 +1,130 @@
+2026-09-27 23:08:21.380 [main] INFO  IpLink - Выполняю команду: i p   l i n k
+2026-09-27 23:08:21.398 [main] INFO  IpLink - Команда выполнена: i p   l i n k
+2026-09-27 23:08:21.404 [main] INFO  IpRoute - Выполняю команду: i p   r o u t e   s h o w
+2026-09-27 23:08:21.406 [main] INFO  IpRoute - Команда выполнена: i p   r o u t e   s h o w
+2026-09-27 23:08:21.410 [main] INFO  Ping - Выполняю команду: p i n g   - c   4   8 . 8 . 8 . 8
+2026-09-27 23:08:24.446 [main] INFO  Ping - Команда выполнена: p i n g   - c   4   8 . 8 . 8 . 8
+2026-09-27 23:08:24.457 [main] INFO  Dig - Выполняю команду: d i g   + s h o r t   g o o g l e . c o m
+2026-09-27 23:08:24.512 [main] INFO  Dig - Команда выполнена: d i g   + s h o r t   g o o g l e . c o m
+2026-09-27 23:08:24.523 [main] INFO  Curl - Выполняю команду: c u r l   - I   - s   - - m a x - t i m e   5   h t t p s : / / g o o g l e . c o m
+2026-09-27 23:08:24.680 [main] INFO  Curl - Команда выполнена: c u r l   - I   - s   - - m a x - t i m e   5   h t t p s : / / g o o g l e . c o m
+2026-09-27 23:08:24.683 [main] INFO  Traceroute - Выполняю команду: t r a c e r o u t e   - n   8 . 8 . 8 . 8
+2026-09-27 23:08:30.069 [main] INFO  Traceroute - Команда выполнена: t r a c e r o u t e   - n   8 . 8 . 8 . 8
+2026-09-27 23:08:30.077 [main] INFO  Ping - Выполняю команду: p i n g   - c   4   8 . 8 . 8 . 8
+2026-09-27 23:08:33.114 [main] INFO  Ping - Команда выполнена: p i n g   - c   4   8 . 8 . 8 . 8
+2026-09-27 23:14:23.921 [main] INFO  IpLink - Выполняю команду: i p   l i n k
+2026-09-27 23:14:23.934 [main] INFO  IpLink - Команда выполнена: i p   l i n k
+2026-09-27 23:14:23.939 [main] INFO  IpRoute - Выполняю команду: i p   r o u t e   s h o w
+2026-09-27 23:14:23.940 [main] INFO  IpRoute - Команда выполнена: i p   r o u t e   s h o w
+2026-09-27 23:14:23.945 [main] INFO  Ping - Выполняю команду: p i n g   - c   4   8 . 8 . 8 . 8
+2026-09-27 23:14:26.980 [main] INFO  Ping - Команда выполнена: p i n g   - c   4   8 . 8 . 8 . 8
+2026-09-27 23:14:26.988 [main] INFO  Dig - Выполняю команду: d i g   + s h o r t   g o o g l e . c o m
+2026-09-27 23:14:27.018 [main] INFO  Dig - Команда выполнена: d i g   + s h o r t   g o o g l e . c o m
+2026-09-27 23:14:27.026 [main] INFO  Curl - Выполняю команду: c u r l   - I   - s   - - m a x - t i m e   5   h t t p s : / / g o o g l e . c o m
+2026-09-27 23:14:27.182 [main] INFO  Curl - Команда выполнена: c u r l   - I   - s   - - m a x - t i m e   5   h t t p s : / / g o o g l e . c o m
+2026-09-27 23:14:27.191 [main] INFO  Traceroute - Выполняю команду: t r a c e r o u t e   - n   8 . 8 . 8 . 8
+2026-09-27 23:14:32.575 [main] INFO  Traceroute - Команда выполнена: t r a c e r o u t e   - n   8 . 8 . 8 . 8
+2026-09-27 23:14:32.589 [main] INFO  Ping - Выполняю команду: p i n g   - c   4   8 . 8 . 8 . 8
+2026-09-27 23:14:35.623 [main] INFO  Ping - Команда выполнена: p i n g   - c   4   8 . 8 . 8 . 8
+2026-09-27 23:15:29.866 [main] INFO  IpLink - Выполняю команду: i p   l i n k
+2026-09-27 23:15:29.885 [main] INFO  IpLink - Команда выполнена: i p   l i n k
+2026-09-27 23:15:29.892 [main] INFO  IpRoute - Выполняю команду: i p   r o u t e   s h o w
+2026-09-27 23:15:29.894 [main] INFO  IpRoute - Команда выполнена: i p   r o u t e   s h o w
+2026-09-27 23:15:29.897 [main] INFO  Ping - Выполняю команду: p i n g   - c   4   8 . 8 . 8 . 8
+2026-09-27 23:15:29.901 [main] ERROR Ping - Ошибка при выполнении 'p i n g   - c   4   8 . 8 . 8 . 8': Nonzero exit value: 2
+2026-09-27 23:15:29.904 [main] INFO  Dig - Выполняю команду: d i g   + s h o r t   g o o g l e . c o m
+2026-09-27 23:15:29.911 [main] ERROR Dig - Ошибка при выполнении 'd i g   + s h o r t   g o o g l e . c o m': Nonzero exit value: 9
+2026-09-27 23:15:29.916 [main] INFO  Curl - Выполняю команду: c u r l   - I   - s   - - m a x - t i m e   5   h t t p s : / / g o o g l e . c o m
+2026-09-27 23:15:29.921 [main] ERROR Curl - Ошибка при выполнении 'c u r l   - I   - s   - - m a x - t i m e   5   h t t p s : / / g o o g l e . c o m': Nonzero exit value: 6
+2026-09-27 23:15:29.924 [main] INFO  Traceroute - Выполняю команду: t r a c e r o u t e   - n   8 . 8 . 8 . 8
+2026-09-27 23:15:29.925 [main] ERROR Traceroute - Ошибка при выполнении 't r a c e r o u t e   - n   8 . 8 . 8 . 8': Nonzero exit value: 1
+2026-09-27 23:15:29.927 [main] INFO  Ping - Выполняю команду: p i n g   - c   4   8 . 8 . 8 . 8
+2026-09-27 23:15:29.928 [main] ERROR Ping - Ошибка при выполнении 'p i n g   - c   4   8 . 8 . 8 . 8': Nonzero exit value: 2
+2026-09-27 23:16:13.388 [main] INFO  IpLink - Выполняю команду: i p   l i n k
+2026-09-27 23:16:13.406 [main] INFO  IpLink - Команда выполнена: i p   l i n k
+2026-09-27 23:16:13.410 [main] INFO  IpRoute - Выполняю команду: i p   r o u t e   s h o w
+2026-09-27 23:16:13.412 [main] INFO  IpRoute - Команда выполнена: i p   r o u t e   s h o w
+2026-09-27 23:16:13.417 [main] INFO  Ping - Выполняю команду: p i n g   - c   4   8 . 8 . 8 . 8
+2026-09-27 23:16:16.452 [main] INFO  Ping - Команда выполнена: p i n g   - c   4   8 . 8 . 8 . 8
+2026-09-27 23:16:16.460 [main] INFO  Dig - Выполняю команду: d i g   + s h o r t   g o o g l e . c o m
+2026-09-27 23:16:16.473 [main] INFO  Dig - Команда выполнена: d i g   + s h o r t   g o o g l e . c o m
+2026-09-27 23:16:16.477 [main] INFO  Curl - Выполняю команду: c u r l   - I   - s   - - m a x - t i m e   5   h t t p s : / / g o o g l e . c o m
+2026-09-27 23:16:16.638 [main] INFO  Curl - Команда выполнена: c u r l   - I   - s   - - m a x - t i m e   5   h t t p s : / / g o o g l e . c o m
+2026-09-27 23:16:16.648 [main] INFO  Traceroute - Выполняю команду: t r a c e r o u t e   - n   8 . 8 . 8 . 8
+2026-09-27 23:16:22.046 [main] INFO  Traceroute - Команда выполнена: t r a c e r o u t e   - n   8 . 8 . 8 . 8
+2026-09-27 23:16:22.062 [main] INFO  Ping - Выполняю команду: p i n g   - c   4   8 . 8 . 8 . 8
+2026-09-27 23:16:25.096 [main] INFO  Ping - Команда выполнена: p i n g   - c   4   8 . 8 . 8 . 8
+2026-09-27 23:27:41.883 [main] INFO  IpLink - Выполняю команду: i p   l i n k
+2026-09-27 23:27:41.898 [main] INFO  IpLink - Команда выполнена: i p   l i n k
+2026-09-27 23:27:41.903 [main] INFO  IpRoute - Выполняю команду: i p   r o u t e   s h o w
+2026-09-27 23:27:41.904 [main] INFO  IpRoute - Команда выполнена: i p   r o u t e   s h o w
+2026-09-27 23:27:41.908 [main] INFO  Ping - Выполняю команду: p i n g   - c   4   8 . 8 . 8 . 8
+2026-09-27 23:27:44.943 [main] INFO  Ping - Команда выполнена: p i n g   - c   4   8 . 8 . 8 . 8
+2026-09-27 23:27:44.951 [main] INFO  Dig - Выполняю команду: d i g   + s h o r t   g o o g l e . c o m
+2026-09-27 23:27:44.988 [main] INFO  Dig - Команда выполнена: d i g   + s h o r t   g o o g l e . c o m
+2026-09-27 23:27:44.997 [main] INFO  Curl - Выполняю команду: c u r l   - I   - s   - - m a x - t i m e   5   h t t p s : / / g o o g l e . c o m
+2026-09-27 23:27:45.160 [main] INFO  Curl - Команда выполнена: c u r l   - I   - s   - - m a x - t i m e   5   h t t p s : / / g o o g l e . c o m
+2026-09-27 23:27:45.163 [main] INFO  Traceroute - Выполняю команду: t r a c e r o u t e   - n   8 . 8 . 8 . 8
+2026-09-27 23:27:50.552 [main] INFO  Traceroute - Команда выполнена: t r a c e r o u t e   - n   8 . 8 . 8 . 8
+2026-09-27 23:27:50.566 [main] INFO  Ping - Выполняю команду: p i n g   - c   4   8 . 8 . 8 . 8
+2026-09-27 23:27:53.605 [main] INFO  Ping - Команда выполнена: p i n g   - c   4   8 . 8 . 8 . 8
+2026-10-07 02:30:25.703 [main] INFO  IpLink - Выполняю команду: i p   l i n k
+2026-10-07 02:30:25.719 [main] INFO  IpLink - Команда выполнена: i p   l i n k
+2026-10-07 03:12:32.151 [main] INFO  IpLink - Выполняю команду: i p   l i n k
+2026-10-07 03:12:32.167 [main] INFO  IpLink - Команда выполнена: i p   l i n k
+2026-10-07 03:12:32.171 [main] INFO  IpRoute - Выполняю команду: i p   r o u t e   s h o w
+2026-10-07 03:12:32.173 [main] INFO  IpRoute - Команда выполнена: i p   r o u t e   s h o w
+2026-10-07 03:12:32.177 [main] INFO  Ping - Выполняю команду: p i n g   - c   4   8 . 8 . 8 . 8
+2026-10-07 03:12:35.265 [main] INFO  Ping - Команда выполнена: p i n g   - c   4   8 . 8 . 8 . 8
+2026-10-07 03:12:35.271 [main] INFO  Dig - Выполняю команду: d i g   + s h o r t   g o o g l e . c o m
+2026-10-07 03:12:35.362 [main] INFO  Dig - Команда выполнена: d i g   + s h o r t   g o o g l e . c o m
+2026-10-07 03:12:35.369 [main] INFO  Curl - Выполняю команду: c u r l   - I   - s   - - m a x - t i m e   5   h t t p s : / / g o o g l e . c o m
+2026-10-07 03:12:35.917 [main] INFO  Curl - Команда выполнена: c u r l   - I   - s   - - m a x - t i m e   5   h t t p s : / / g o o g l e . c o m
+2026-10-07 03:12:35.921 [main] INFO  Traceroute - Выполняю команду: t r a c e r o u t e   - n   8 . 8 . 8 . 8
+2026-10-07 03:13:05.955 [main] INFO  Traceroute - Команда выполнена: t r a c e r o u t e   - n   8 . 8 . 8 . 8
+2026-10-07 03:13:05.966 [main] INFO  Ping - Выполняю команду: p i n g   - c   4   8 . 8 . 8 . 8
+2026-10-07 03:13:09.057 [main] INFO  Ping - Команда выполнена: p i n g   - c   4   8 . 8 . 8 . 8
+2026-10-07 03:13:55.555 [main] INFO  Dig - Выполняю команду: d i g   + s h o r t   g o o g l e . c o m
+2026-10-07 03:13:55.568 [main] INFO  Dig - Команда выполнена: d i g   + s h o r t   g o o g l e . c o m
+2026-10-07 03:15:29.024 [main] INFO  IpLink - Выполняю команду: i p   l i n k
+2026-10-07 03:15:29.040 [main] INFO  IpLink - Команда выполнена: i p   l i n k
+2026-10-07 03:15:29.044 [main] INFO  IpRoute - Выполняю команду: i p   r o u t e   s h o w
+2026-10-07 03:15:29.046 [main] INFO  IpRoute - Команда выполнена: i p   r o u t e   s h o w
+2026-10-07 03:15:29.050 [main] INFO  Ping - Выполняю команду: p i n g   - c   4   8 . 8 . 8 . 8
+2026-10-07 03:15:32.161 [main] INFO  Ping - Команда выполнена: p i n g   - c   4   8 . 8 . 8 . 8
+2026-10-07 03:15:32.171 [main] INFO  Dig - Выполняю команду: d i g   + s h o r t   g o o g l e . c o m
+2026-10-07 03:15:32.194 [main] INFO  Dig - Команда выполнена: d i g   + s h o r t   g o o g l e . c o m
+2026-10-07 03:15:32.197 [main] INFO  Curl - Выполняю команду: c u r l   - I   - s   - - m a x - t i m e   5   h t t p s : / / g o o g l e . c o m
+2026-10-07 03:15:32.860 [main] INFO  Curl - Команда выполнена: c u r l   - I   - s   - - m a x - t i m e   5   h t t p s : / / g o o g l e . c o m
+2026-10-07 03:15:32.868 [main] INFO  Traceroute - Выполняю команду: t r a c e r o u t e   - n   8 . 8 . 8 . 8
+2026-10-07 03:16:02.902 [main] INFO  Traceroute - Команда выполнена: t r a c e r o u t e   - n   8 . 8 . 8 . 8
+2026-10-07 03:16:02.916 [main] INFO  Ping - Выполняю команду: p i n g   - c   4   8 . 8 . 8 . 8
+2026-10-07 03:16:06.017 [main] INFO  Ping - Команда выполнена: p i n g   - c   4   8 . 8 . 8 . 8
+2026-10-09 16:54:20.737 [main] INFO  IpLink - Выполняю команду: i p   l i n k
+2026-10-09 16:54:20.772 [main] INFO  IpLink - Команда выполнена: i p   l i n k
+2026-10-09 16:54:20.780 [main] INFO  IpRoute - Выполняю команду: i p   r o u t e   s h o w
+2026-10-09 16:54:20.783 [main] INFO  IpRoute - Команда выполнена: i p   r o u t e   s h o w
+2026-10-09 16:54:20.787 [main] INFO  Ping - Выполняю команду: p i n g   - c   4   8 . 8 . 8 . 8
+2026-10-09 16:54:20.795 [main] ERROR Ping - Ошибка при выполнении 'p i n g   - c   4   8 . 8 . 8 . 8': Nonzero exit value: 2
+2026-10-09 16:54:20.801 [main] INFO  Dig - Выполняю команду: d i g   + s h o r t   g o o g l e . c o m
+2026-10-09 16:54:20.829 [main] ERROR Dig - Ошибка при выполнении 'd i g   + s h o r t   g o o g l e . c o m': Nonzero exit value: 9
+2026-10-09 16:54:20.836 [main] INFO  Curl - Выполняю команду: c u r l   - I   - s   - - m a x - t i m e   5   h t t p s : / / g o o g l e . c o m
+2026-10-09 16:54:20.847 [main] ERROR Curl - Ошибка при выполнении 'c u r l   - I   - s   - - m a x - t i m e   5   h t t p s : / / g o o g l e . c o m': Nonzero exit value: 6
+2026-10-09 16:54:20.853 [main] INFO  Traceroute - Выполняю команду: t r a c e r o u t e   - n   8 . 8 . 8 . 8
+2026-10-09 16:54:20.856 [main] ERROR Traceroute - Ошибка при выполнении 't r a c e r o u t e   - n   8 . 8 . 8 . 8': Nonzero exit value: 1
+2026-10-09 16:54:20.861 [main] INFO  Ping - Выполняю команду: p i n g   - c   4   8 . 8 . 8 . 8
+2026-10-09 16:54:20.863 [main] ERROR Ping - Ошибка при выполнении 'p i n g   - c   4   8 . 8 . 8 . 8': Nonzero exit value: 2
+2026-10-09 16:55:16.300 [main] INFO  IpLink - Выполняю команду: i p   l i n k
+2026-10-09 16:55:16.311 [main] INFO  IpLink - Команда выполнена: i p   l i n k
+2026-10-09 16:55:16.317 [main] INFO  IpRoute - Выполняю команду: i p   r o u t e   s h o w
+2026-10-09 16:55:16.327 [main] INFO  IpRoute - Команда выполнена: i p   r o u t e   s h o w
+2026-10-09 16:55:16.350 [main] INFO  Ping - Выполняю команду: p i n g   - c   4   8 . 8 . 8 . 8
+2026-10-09 16:55:19.424 [main] INFO  Ping - Команда выполнена: p i n g   - c   4   8 . 8 . 8 . 8
+2026-10-09 16:55:19.432 [main] INFO  Dig - Выполняю команду: d i g   + s h o r t   g o o g l e . c o m
+2026-10-09 16:55:19.530 [main] INFO  Dig - Команда выполнена: d i g   + s h o r t   g o o g l e . c o m
+2026-10-09 16:55:19.556 [main] INFO  Curl - Выполняю команду: c u r l   - I   - s   - - m a x - t i m e   5   h t t p s : / / g o o g l e . c o m
+2026-10-09 16:55:19.828 [main] INFO  Curl - Команда выполнена: c u r l   - I   - s   - - m a x - t i m e   5   h t t p s : / / g o o g l e . c o m
+2026-10-09 16:55:19.835 [main] INFO  Traceroute - Выполняю команду: t r a c e r o u t e   - n   8 . 8 . 8 . 8
+2026-10-09 16:55:26.783 [main] INFO  Traceroute - Команда выполнена: t r a c e r o u t e   - n   8 . 8 . 8 . 8
+2026-10-09 16:55:26.808 [main] INFO  Ping - Выполняю команду: p i n g   - c   4   8 . 8 . 8 . 8
+2026-10-09 16:55:29.871 [main] INFO  Ping - Команда выполнена: p i n g   - c   4   8 . 8 . 8 . 8

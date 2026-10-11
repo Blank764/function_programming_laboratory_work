@@ -1,0 +1,30 @@
+
+=== IP Link ===
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+2: enp3s0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc fq_codel state DOWN mode DEFAULT group default qlen 1000
+    link/ether 04:7c:16:a6:f3:c9 brd ff:ff:ff:ff:ff:ff
+    altname enx047c16a6f3c9
+3: wlo1: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+    link/ether 2a:31:81:05:c3:5a brd ff:ff:ff:ff:ff:ff permaddr 58:1c:f8:ad:9c:65
+    altname wlp0s20f3
+    altname wlx581cf8ad9c65
+
+
+=== IP Route ===
+
+
+=== Ping ===
+Nonzero exit value: 2
+
+=== Dig ===
+Nonzero exit value: 9
+
+=== Curl ===
+Nonzero exit value: 6
+
+=== Traceroute ===
+Nonzero exit value: 1
+
+=== Ping ===
+Nonzero exit value: 2
