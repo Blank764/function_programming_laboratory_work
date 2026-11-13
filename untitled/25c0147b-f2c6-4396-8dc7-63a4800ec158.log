@@ -1,0 +1,39 @@
+
+=== IP Route ===
+default via 192.168.0.1 dev enp3s0 proto dhcp src 192.168.0.102 metric 100 
+172.18.0.0/30 dev tun0 proto kernel scope link src 172.18.0.1 
+192.168.0.0/24 dev enp3s0 proto kernel scope link src 192.168.0.102 metric 100 
+
+
+=== Ping ===
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=64 time=0.145 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=64 time=0.205 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=64 time=0.254 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=64 time=0.248 ms
+
+--- 8.8.8.8 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3089ms
+rtt min/avg/max/mdev = 0.145/0.213/0.254/0.043 ms
+
+
+=== Dig ===
+;; communications error to 8.8.4.4#53: timed out
+172.217.19.238
+
+
+=== Curl ===
+HTTP/2 301 
+location: https://www.google.com/
+content-type: text/html; charset=UTF-8
+content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-pojM4Df43pg3IAt-1Gr7mg' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+date: Sat, 07 Nov 2026 17:26:06 GMT
+expires: Mon, 07 Dec 2026 17:26:06 GMT
+cache-control: public, max-age=2592000
+server: gws
+content-length: 220
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+

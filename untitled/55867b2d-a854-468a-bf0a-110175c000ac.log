@@ -1,0 +1,65 @@
+
+=== IP Link ===
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+2: enp3s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP mode DEFAULT group default qlen 1000
+    link/ether 04:7c:16:a6:f3:c9 brd ff:ff:ff:ff:ff:ff
+    altname enx047c16a6f3c9
+3: wlo1: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+    link/ether 62:18:71:b3:75:ca brd ff:ff:ff:ff:ff:ff permaddr 58:1c:f8:ad:9c:65
+    altname wlp0s20f3
+    altname wlx581cf8ad9c65
+
+
+=== IP Route ===
+default via 192.168.0.1 dev enp3s0 proto dhcp src 192.168.0.103 metric 100 
+192.168.0.0/24 dev enp3s0 proto kernel scope link src 192.168.0.103 metric 100 
+
+
+=== Ping ===
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=115 time=44.0 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=115 time=44.0 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=115 time=44.2 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=115 time=44.2 ms
+
+--- 8.8.8.8 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3004ms
+rtt min/avg/max/mdev = 43.963/44.065/44.164/0.095 ms
+
+
+=== Dig ===
+;; communications error to 8.8.4.4#53: timed out
+142.251.14.102
+142.251.14.100
+142.251.14.101
+142.251.14.113
+142.251.14.138
+142.251.14.139
+
+
+=== Curl ===
+Nonzero exit value: 28
+
+=== Traceroute ===
+traceroute to 8.8.8.8 (8.8.8.8), 30 hops max, 60 byte packets
+ 1  192.168.0.1  0.304 ms  0.388 ms  0.407 ms
+ 2  95.37.0.1  3.058 ms  3.094 ms  3.589 ms
+ 3  * * *
+ 4  * * *
+ 5  * * 173.194.121.4  30.999 ms
+ 6  142.250.236.117  46.924 ms *  48.076 ms
+ 7  142.251.48.43  30.121 ms 142.251.48.39  25.916 ms 142.251.236.73  28.531 ms
+ 8  8.8.8.8  43.284 ms  44.185 ms  44.357 ms
+
+
+=== Ping ===
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=115 time=44.0 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=115 time=43.9 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=115 time=44.3 ms
+
+--- 8.8.8.8 ping statistics ---
+4 packets transmitted, 3 received, 25% packet loss, time 3059ms
+rtt min/avg/max/mdev = 43.883/44.048/44.286/0.172 ms
+
